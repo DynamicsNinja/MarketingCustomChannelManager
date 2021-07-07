@@ -1,0 +1,32 @@
+﻿@font-face {
+    font-family: 'TILE_NAMETileCustomerJourneyDesignerTileConfig';
+    src: url('data:font/opentype;base64, <fontInBase64String=>') format('woff');
+}
+
+.TILE_NAMETileSymbolFont {
+    font-family: 'CRMMDL2' !important;
+}
+
+.TILE_NAMETile::before {
+    content: "\EA8F";
+}
+
+#libraryElementCustom_TILE_NAME > span.lib-iconContainer {
+    background-color: TILE-BACKGROUND-COLOR;
+}
+
+.Custom_TILE_NAME span.tileImageWrapper {
+    background-color: ICON-BACKGROUND-COLOR;
+}
+
+.Custom_TILE_NAME.tileOutline.selected {
+    border-color: TILE-BORDER-COLOR !important;
+}
+
+.Custom_TILE_NAME.tileLeftBorder {
+    border-left-color: LEFT-BORDER-COLOR !important;
+}
+
+.Custom_TILE_NAME:hover {
+    background-color: rgba(18, 46, 130, .2) !important;
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Fic.XTB.MarketingCustomChannelManager</id>
+    <version>1.2021.7.1</version>
+    <title>Marketing Custom Channel Manager for XrmToolBox</title>
+    <authors>Ivan Ficko</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/DynamicsNinja/MarketingCustomChannelManager</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DynamicsNinja/MarketingCustomChannelManager/main/docs/img/mccm-300.png</iconUrl>
+    <description>Create and update a custom channel for customer journey.</description>
+    <summary>Create and update a custom channel for customer journey.</summary>
+    <releaseNotes>1.2021.7.1
+- Initial version of the tool released</releaseNotes>
+    <copyright>Copyright 2021 Ivan Ficko</copyright>
+    <tags>XrmToolBox Plugins MarketingCustomChannelManager</tags>
+    <dependencies>
+      <dependency id="XrmToolBox" version="1.2018.6.25" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="MarketingCustomChannelManager\bin\Release\Plugins\Fic.XTB.MarketingCustomChannelManager.dll" target="lib\net472\Plugins\Fic.XTB.MarketingCustomChannelManager.dll" />
+  </files>
+</package>
